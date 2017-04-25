@@ -23,7 +23,6 @@ function createRendering(fsFilename, vsFilename) {
 
   var vsLoaded = function(vsSrc) {
     var canvas = document.createElement('canvas');
-    container.style.position = 'relative';
     document.body.appendChild(canvas);
     canvas.width = window.innerWidth;
     canvas.height = window.innerHeight;
